@@ -1,0 +1,2 @@
+export(TDASample)
+S3method(print, TDASample)

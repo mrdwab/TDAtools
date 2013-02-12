@@ -1,0 +1,15 @@
+Package: TDAtools
+Type: Package
+Title: A collection of functions written for students at the Tata-Dhan Academy
+Version: 1.0
+Date: 2013-02-12
+Author: Ananda Mahto
+Maintainer: Ananda Mahto <anandamahto@dhan.org>
+Description: This package collects some functions that were written to be used
+    by students at the Tata-Dhan Academy, particularly for their courses in
+    quantitative techniques and research.
+License: GPL-2
+Collate:
+    'TDASample.R'
+    'TDAtools-package.R'
+    'TDAtoolsPrintMethods.R'
