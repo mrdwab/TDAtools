@@ -16,3 +16,4 @@ Collate:
     'NoUserAccess.R'
     'TDAFreq.R'
     'TDAGroupMean.R'
+    'TDAGroupMedian.R'

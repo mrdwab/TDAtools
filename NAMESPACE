@@ -1,5 +1,6 @@
 export(TDASample,
        TDAFreq,
-       TDAGroupMean)
+       TDAGroupMean,
+       TDAGroupMedian)
 S3method(print, TDASample)
 S3method(print, TDAFreq)
