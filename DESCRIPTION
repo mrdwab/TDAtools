@@ -15,3 +15,4 @@ Collate:
     'TDAtoolsPrintMethods.R'
     'NoUserAccess.R'
     'TDAFreq.R'
+    'TDAGroupMean.R'
