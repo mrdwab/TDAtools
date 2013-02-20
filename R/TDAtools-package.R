@@ -21,6 +21,17 @@
 #'## TDASample
 #'TDASample("Tata-Dhan Academy", 100, 10)
 #'
+#'MyGroupedDF <- data.frame(
+#' ClassLow = c(0, 50, 100, 150, 200, 250, 300, 350, 400, 450),
+#' ClassHigh = c(50, 100, 150, 200, 250, 300, 350, 400, 450, 500),
+#' Freq = c(78, 123, 187, 82, 51, 47, 13, 9, 6, 4))
+#'
+#'## TDAGroupMean
+#'TDAGroupMean(MyGroupedDF)
+#'
+#'## TDAGroupMedian
+#'TDAGroupMedian(MyGroupedDF)
+#'
 NULL
 
 
