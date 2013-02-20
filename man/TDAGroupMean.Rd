@@ -1,6 +1,6 @@
 \name{TDAGroupMean}
 \alias{TDAGroupMean}
-\title{Calculated the arithmetic mean of grouped data}
+\title{Estimate the arithmetic mean of grouped data}
 \usage{
   TDAGroupMean(inDF)
 }
@@ -27,9 +27,9 @@
 ## Your input data.frame should look like this
 
 MyGroupedDF <- data.frame(
- ClassLow = c(0, 50, 100, 150, 200, 250, 300, 350, 400, 450),
- ClassHigh = c(50, 100, 150, 200, 250, 300, 350, 400, 450, 500),
- Freq = c(78, 122, 187, 82, 51, 47, 13, 9, 6, 4))
+ClassLow = c(0, 50, 100, 150, 200, 250, 300, 350, 400, 450),
+ClassHigh = c(50, 100, 150, 200, 250, 300, 350, 400, 450, 500),
+Freq = c(78, 123, 187, 82, 51, 47, 13, 9, 6, 4))
 MyGroupedDF
 TDAGroupMean(MyGroupedDF)
 
@@ -49,6 +49,6 @@ TDAGroupMean(temp)
 }
 \seealso{
   \code{\link{weighted.mean}}, \code{\link{mean}},
-  \code{\link{TDAFreq}}
+  \code{\link{TDAFreq}}, \code{\link{TDAGroupMedian}}
 }
 
