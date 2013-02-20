@@ -13,3 +13,4 @@ Collate:
     'TDASample.R'
     'TDAtools-package.R'
     'TDAtoolsPrintMethods.R'
+    'NoUserAccess.R'
