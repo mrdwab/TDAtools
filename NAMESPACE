@@ -1,2 +1,4 @@
-export(TDASample)
+export(TDASample,
+       TDAFreq)
 S3method(print, TDASample)
+S3method(print, TDAFreq)

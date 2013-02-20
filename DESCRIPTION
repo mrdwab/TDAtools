@@ -14,3 +14,4 @@ Collate:
     'TDAtools-package.R'
     'TDAtoolsPrintMethods.R'
     'NoUserAccess.R'
+    'TDAFreq.R'
