@@ -19,3 +19,13 @@ print.TDASample <- function(x, digits = 15, prefix = "", ...) {
   print(x$FinalSample_sorted)
   invisible(x)
 }
+
+print.TDAFreq <- function(x, ...) {
+  cat("", "NOTE:\n")
+  cat("", "  ", dQuote('['), "represents inclusive of that number;\n")
+  cat("", "  ", dQuote('('), "represents excluding that number.\n\n")
+  cat("", "Thus,", dQuote("(3,4]"), "should be read as\n")
+  cat("   ", dQuote("Greater than 3 but less than or equal to 4"), "\n\n")
+  print.data.frame(x)
+  invisible(x)
+}
